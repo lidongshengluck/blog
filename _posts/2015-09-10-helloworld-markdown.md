@@ -31,6 +31,7 @@
 ### Latex公式
 $$E=mc^2$$
 
+
 ### 高亮代码
 
 ```python
@@ -42,18 +43,17 @@ class SomeClass:
         # A comment
         print 'hello world'
 ```
-### 4. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
 
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
+### Flowcharts
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
 ```
+graph TD
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
 
 
 
