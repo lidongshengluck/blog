@@ -20,9 +20,10 @@
 
         {% if page.url == "/index.html" %}
           <li class="active">
-          {% else %}
+        {% else %}
           <li>
         {% endif %}
+
           <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span> Blog</a></li>
 
         {% for p in site.pages %}
