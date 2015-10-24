@@ -16,20 +16,19 @@
         2 
         3 int main()
         4 {
-        5     int book[1001],i,j,t,n;
-        6     for(i=0;i<=1000;i++)
-        7         book[i]=0;
-        8     scanf("%d",&n);
-        9        for(i=1;i<=n;i++)//循环读入n个数，并进行桶排序
-        10        {
-        11            scanf("%d",&t);
+        5     int book[1001], i, j, t, n;
+        6     for (i = 0;i <= 1000; i++)
+        7         book[i] = 0;
+        8     scanf(" %d", &n);
+        9        for (i = 1;i <= n; i++) {//循环读入n个数，并进行桶排序
+        11            scanf(" %d", &t);
         12            book[t]++;
-        13              
         14 }
-        15 for(i=1000;i>=0;i--)
-        16 for(j=1;j<=book[i];j++)
-        17 printf("%d,", i);
-        18 getchar();getchar();
+        15 for ( i = 1000; i >= 0; i--)
+        16 for ( j = 1; j <= book[i]; j++)
+        17 printf(" %d,", i);
+        
+        18 getchar(); getchar();
         19 return 0;
         20 }
 3. ,w为保存 ,q为退出
