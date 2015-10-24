@@ -16,3 +16,6 @@
 - root下用fdisk -l看硬盘情况
 - mount装载，umont卸载
 - 文件转载 #dd if=xxx of=/dev/xxx。其中if是inputfile后接目录下的文件，of是outputfile后接目标设备
+- alt+i当前屏幕最大最小切换
+- alt+o水平分出一新屏
+- alt+e垂直分出一新平
