@@ -5,5 +5,6 @@
 - ctrl+p上一条指令，ctrl+n下一条指令
 - gdb ./～调式～
 - ctrl+r寻找以前打开过的文件，可以输入关键字寻找
-- 
+- vi ~/.vim/mydoc/index/doc/REANME.txt是打开vim参考手册
+- vi ~/.vim/conf.d/.vim-leadermap.vimrc看
 - 
