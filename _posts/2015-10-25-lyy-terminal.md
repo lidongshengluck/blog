@@ -14,3 +14,5 @@
 7. vim里按ctrl+g是显示文件名，按1后再按ctrl+g就显示路径
 8. vim里f是寻找，找完一个后，按；是重复再找
 9. linux里按shift+菜单+空格，是改变输入法
+10. firefox浏览器安装vimperator后，可在～目录下创建.vimperatorrc文件设置hint功能
+
