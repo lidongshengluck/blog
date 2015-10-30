@@ -3,6 +3,7 @@
 ###一、环境
 1. yum install git 4.2
 2. yun install openssh
+
 ###二、本地仓库
 1. 建立一个文件夹 ~/github
 2. 创建ssh联系
@@ -23,11 +24,21 @@
 11. git commit
 12. git push 输入lidongshengluck和密码xiaomihu24
 13. 上传成功
+
 ###三、本地删除
 1. git rm xxx
 2. git add .
 3. git commit
 4. git push
+
 ###四、常用
 - add
 - commit
+- checout
+- log
+- status
+- push
+- pull
+- merge
+- branch
+- tag
