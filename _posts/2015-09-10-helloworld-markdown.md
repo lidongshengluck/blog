@@ -1,3 +1,9 @@
+---
+layout: post
+title:  'hello markdown'
+date:   '2015-02-10 14:21:20'
+categories: markdown
+---
 # h1标题
 ## h2标题
 ### h3标题
@@ -33,16 +39,15 @@ $$E=mc^2$$
 
 
 ### 高亮代码
-
-```python
-@requires_authorization
-class SomeClass:
-    pass
-
-    if __name__ == '__main__':
-        # A comment
-        print 'hello world'
-```
+    <?php
+        class article
+        {
+            public function __construct()
+            {
+                //init...
+            }
+        }
+    ?>
 
 ### Flowcharts
 

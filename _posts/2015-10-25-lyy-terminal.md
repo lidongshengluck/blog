@@ -1,10 +1,16 @@
-#2015-10-25
-##terminal
-###键盘
+---
+layout: post
+title:  'linux termine study'
+date:   '2015-10-21 22:21:20'
+categories: linux
+---
+# 2015-10-25
+## terminal
+### 键盘
 - ~ ! @ # $ % ^ & * ( ) _ +
 - ` 1 2 3 4 5 6 7 8 9 0 - =
 
-###指令
+### 指令
 1. 将目录a重命名为b——mv a b
 2. 将/a目录移动到/b下，并重命名为c—— mv /a /b/c
 3. 将家目录下的.a复制到/tmp下，并重命名为b —— （root）# cp ～/.a /tmp/b

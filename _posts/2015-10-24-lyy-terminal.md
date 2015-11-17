@@ -1,5 +1,11 @@
-#2015-10-24
-##terminal键入技巧
+---
+layout: post
+title:  'linux termine study'
+date:   '2015-10-24 23:21:20'
+categories: linux
+---
+# 2015-10-24
+## terminal键入技巧
 - shift+insert粘贴
 - ctrl++字变大，ctrl+字变小
 - ctrl+p上一条指令，ctrl+n下一条指令

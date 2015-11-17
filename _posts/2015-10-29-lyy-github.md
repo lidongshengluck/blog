@@ -1,10 +1,16 @@
-#2015-10-29
-##从本地建立与github的连接
-###一、环境
+---
+layout: post
+title:  'hello github'
+date:   '2015-10-29 20:21:20'
+categories: github
+---
+# 2015-10-29
+## 从本地建立与github的连接
+### 一、环境
 1. yum install git 4.2
 2. yun install openssh
 
-###二、本地仓库
+### 二、本地仓库
 1. 建立一个文件夹 ~/github
 2. 创建ssh联系
   - ssh-keygen -t rsa -C "lidongshengluck@163.com"
@@ -25,13 +31,13 @@
 12. git push 输入lidongshengluck和密码xiaomihu24
 13. 上传成功
 
-###三、本地删除
+### 三、本地删除
 1. git rm xxx
 2. git add .
 3. git commit
 4. git push
 
-###四、常用
+### 四、常用
 - add
 - commit
 - checout
