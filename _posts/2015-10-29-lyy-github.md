@@ -27,7 +27,7 @@ categories: github
 8. 可切换到你想上传到的文件夹下cd lidongshengluck.github.in/_posts/
 9. vi a.md
 10. git add a.md
-11. git commit
+11. git commit(写完提交说明后:wq退出编辑器）
 12. git push 输入lidongshengluck和密码xiaomihu24
 13. 上传成功
 
